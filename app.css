@@ -11,20 +11,18 @@ body {
 	align-items: center;
 	min-height: 100vh;
 	background-repeat: no-repeat, no-repeat;
-	background-size: 100%, 100%;
-	background-position-y: -200px, 600px;
-	background-position-x: -240px, 240px;
+	background-size: 200%, 250%;
+	background-position-y: -400px, 350px;
+	background-position-x: -550px, 170px;
 }
 
 #card {
-	width: 375px;
+	width: 90%;
 	height: auto;
+	margin: 0 auto;
 	background-color: white;
 	border-radius: 1rem;
-}
-
-#banner-img {
-	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
 
 #banner-img img {
@@ -95,4 +93,16 @@ body {
 	font-weight: 400;
 	color: hsl(0, 0%, 59%);
 	letter-spacing: 2px;
+}
+
+@media (min-width: 1224px) {
+	body {
+		background-size: 70%, 70%;
+		background-position-y: -800px, 500px;
+		background-position-x: -400px, 900px;
+	}
+
+	#card {
+		width: 100%;
+	}
 }
